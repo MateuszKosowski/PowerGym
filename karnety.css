@@ -1,0 +1,25 @@
+main > .container
+{
+    margin-top: 120px !important;
+}
+
+.price
+{
+    text-align: center;
+    padding-left: 80px;
+}
+
+.info
+{
+    font-size: 34px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 50px;
+    padding-left: 50px !important;
+    text-shadow: 1px 1px 2px #00b0f0;
+}
+
+.info img
+{
+    width: 80px;
+    height: 80px;
+}

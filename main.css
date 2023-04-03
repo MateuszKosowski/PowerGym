@@ -1,0 +1,118 @@
+body
+{
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url(img/Background.png);
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+strong
+{
+    font-weight: normal;
+}
+
+header
+{
+    font-size: 22px;
+}
+
+.nav-link:hover
+{
+    color: #BBB !important;
+}
+
+.bg-dark
+{
+    background-color: #272727 !important;
+    border-bottom: 2px solid rgb(0, 151, 238) !important;
+}
+
+main > .container-fluid
+{
+    margin-top: 78px !important;
+}
+
+.row > *
+{
+    padding: 0px !important;
+}
+
+.footer
+{
+    font-size: 16px;
+    background-color: #222;
+    text-align: center;
+    border: 1px black solid;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.bigger
+{
+    font-size: 28px;
+}
+ .yt
+ {
+    color: #d71e18;
+ }
+
+ .yt:hover
+ {
+     color: #e82f29
+ }
+
+.inst
+{
+    border-radius: 10px;
+    color: #eee;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.inst:hover
+{
+    color: #fff;
+    background: #f1a544; 
+    background: -moz-linear-gradient(45deg, #f1a544 0%, #f7794d 25%, #ed3854 50%, #dd3477 75%, #cd2999 100%); 
+    background: -webkit-linear-gradient(45deg, #f1a544 0%,#f7794d 25%,#ed3854 50%,#dd3477 75%,#cd2999 100%); 
+    background: linear-gradient(45deg, #f1a544 0%,#f7794d 25%,#ed3854 50%,#dd3477 75%,#cd2999 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.fb
+{
+    color: #2f55a4;
+}
+
+.fb:hover
+{
+    color: #3f66b5;
+}
+
+.twit
+{
+    color: #1DA1F2;
+}
+
+.twit:hover
+{
+    color: #2EB2F3
+}
+.clock
+{
+    color: rgb(30, 235, 74);
+}
+
+.mail
+{
+    color: #aaa;
+}
+
+.color
+{
+    color: #00b0f0;
+}

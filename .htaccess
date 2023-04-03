@@ -1,0 +1,14 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule strona-główna index.php
+RewriteRule galeria-zdjęć galeria.php
+RewriteRule zapis-na-zajęcia zajecia.php
+RewriteRule cennik-karnety karnety.php
+RewriteRule cennik-zajęcia-grupowe grupowe.php
+RewriteRule cennik-suplementy suplementy.php
+
